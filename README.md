@@ -17,13 +17,13 @@ import * as path from 'path';
 import DtsBundlePlugin from 'webpack-dts-bundle';
 
 const configuration: webpack.Configuration = {
-	plugins: [
-		new DtsBundlePlugin({
+  plugins: [
+    new DtsBundlePlugin({
       name: 'your-awesome-module-name',
       main: path.resolve(__dirname, './src/index.d.ts'),
       out: path.resolve(__dirname, './dist/index.d.ts'),
       verbose: true,
     }),
-	]
+  ]
 };
 ```
