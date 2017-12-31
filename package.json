@@ -1,18 +1,10 @@
 {
   "name": "webpack-dts-bundle",
   "version": "0.0.1",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/S64/webpack-dts-bundle.git"
-  },
   "author": "Shuma Yoshioka <s64.stdio@gmail.com> (https://github.com/S64/)",
-  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/S64/webpack-dts-bundle/issues"
   },
-  "homepage": "https://github.com/S64/webpack-dts-bundle",
   "dependencies": {
     "@types/dts-bundle": "0.0.30",
     "@types/webpack": "^3.8.1",
@@ -22,7 +14,15 @@
   "devDependencies": {
     "typescript": "^2.6.2"
   },
+  "homepage": "https://github.com/S64/webpack-dts-bundle",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S64/webpack-dts-bundle.git"
+  },
   "scripts": {
     "build": "tsc"
-  }
+  },
+  "types": "dist/index.d.ts"
 }
