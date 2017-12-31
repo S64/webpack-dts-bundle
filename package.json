@@ -1,6 +1,8 @@
 {
   "name": "webpack-dts-bundle",
   "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/S64/webpack-dts-bundle.git"
