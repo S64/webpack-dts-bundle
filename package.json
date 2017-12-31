@@ -10,7 +10,7 @@
     "@types/dts-bundle": "0.0.30",
     "@types/webpack": "^3.8.1",
     "dts-bundle": "^0.7.3",
-    "webpack": "^3.10.0"
+    "webpack": "^3.8.1"
   },
   "devDependencies": {
     "typescript": "^2.6.2"
