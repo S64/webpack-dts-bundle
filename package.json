@@ -1,7 +1,7 @@
 {
   "name": "webpack-dts-bundle",
   "description": "Webpack plugin of dts-bundle wrapper.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Shuma Yoshioka <s64.stdio@gmail.com> (https://github.com/S64/)",
   "bugs": {
     "url": "https://github.com/S64/webpack-dts-bundle/issues"
