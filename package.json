@@ -8,12 +8,12 @@
   },
   "dependencies": {
     "@types/dts-bundle": "0.0.30",
-    "@types/webpack": "^3.8.1",
+    "@types/webpack": "^4.1.2",
     "dts-bundle": "^0.7.3",
-    "webpack": "^3.8.1"
+    "webpack": "^4.2.0"
   },
   "devDependencies": {
-    "typescript": "^2.6.2"
+    "typescript": "^2.7.2"
   },
   "files": [
     "README.md",
@@ -36,7 +36,8 @@
     "url": "git+https://github.com/S64/webpack-dts-bundle.git"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "types": "dist/index.d.ts"
 }

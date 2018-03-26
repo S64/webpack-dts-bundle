@@ -27,7 +27,7 @@ class DtsBundlePlugin implements webpack.Plugin {
   }
 
   apply(compiler: webpack.Compiler): void {
-    compiler.plugin('done', () => {
+    compiler.hooks.afterEmit.tap('webpack-dts-bundle', () => {
       dts.bundle({
         name: this.options.name,
         main: this.options.main,
