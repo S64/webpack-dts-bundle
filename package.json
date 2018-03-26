@@ -36,7 +36,8 @@
     "url": "git+https://github.com/S64/webpack-dts-bundle.git"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "types": "dist/index.d.ts"
 }
